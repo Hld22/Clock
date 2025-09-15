@@ -17,8 +17,8 @@ function getTime() {
     hoursHand.style.transform = 'rotate('+ (hours * 30 + minutes / 2) + 'deg)'
 
     if (
-        (hours == 12 && minutes >= 33) ||
-        (hours == 13 && minutes <= 15)) {
+        (hours == 12 && minutes >= 30) ||
+        (hours == 13 && minutes <= 10)) {
         clock.style.backgroundImage = 'url("LernzeitUhr.png")';
     } else {
         clock.style.backgroundImage = '';
